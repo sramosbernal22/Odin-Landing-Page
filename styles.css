@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/*Header Part*/
 header{
     display: flex;
     flex-direction: row;
@@ -11,11 +11,15 @@ header{
     background-color: #1F2937;
     color: #E5E7EB;
     text-decoration: none;
+}
 
+.logo{
+    font-size: 24px;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 
 }
