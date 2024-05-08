@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
