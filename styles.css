@@ -23,3 +23,39 @@ a{
     font-size: 18px;
 
 }
+
+/*Section 1*/
+.section1{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left_side button{
+    background-color: #3882F6;
+    width: 80px;
+    height: 30px;
+}
+
+.main_text{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary_text{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+
+.right_side img{
+  height: 200px;
+  width: 200px;
+}
