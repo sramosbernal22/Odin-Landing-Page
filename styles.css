@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+
 }
 /*Header Part*/
 header{
@@ -14,13 +15,19 @@ header{
 }
 
 .logo{
+    margin-left: 10%;
     font-size: 24px;
+}
+
+.links{
+    margin-right: 10%;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    
 
 }
 
@@ -32,6 +39,7 @@ a{
 }
 
 .left_side{
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
 
@@ -58,6 +66,7 @@ a{
 .right_side img{
   height: 200px;
   width: 200px;
+  
 }
 
 /*Section 2*/
@@ -76,6 +85,10 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
 }
 
 .img1 img{
@@ -101,11 +114,21 @@ a{
     font-family: 36px light italic #1F2937;
 }
 
+.quote{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 36px;
+    font-family: light italic;
+    color:#1F2937
+}
+
 .quoteAuthor{
     display: flex;
     font-weight: bold;
     flex-direction: column;
     align-items: end;
+    
+    margin-right: 23%;
 }
 
 /*Section 4*/
@@ -116,8 +139,10 @@ a{
     flex-direction: row;
     color: #E5E7EB;
     margin: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .action_right button{
@@ -125,5 +150,15 @@ a{
     width: 80px;
     height: 30px;
     border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+}
+
+/*Footer*/
+footer{
+    background-color: #1F2937;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
 }
